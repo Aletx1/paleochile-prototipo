@@ -24,16 +24,10 @@ function mostrarInfo(dino) {
   const panel = document.getElementById('info-panel');
   panel.classList.add('open');
 
-  // Cambiar imagen
   panel.querySelector('img').src = dino.imagen;
-
-  // Cambiar título
   panel.querySelector('h2').textContent = dino.nombre;
-
-  // Cambiar descripción
   panel.querySelector('p').textContent = dino.descripcion;
 
-  // Datos paleontológicos
   const datosPaleo = panel.querySelector('#datos-paleo');
   datosPaleo.innerHTML = `
     <li><strong>Nombre científico:</strong> ${dino.nombre_cientifico}</li>
@@ -48,7 +42,6 @@ function mostrarInfo(dino) {
     </li>
   `;
 
-  // Datos curiosos
   const datosCuriosos = panel.querySelector('#datos-curiosos');
   datosCuriosos.innerHTML = dino.curiosidades.map(item => `<li>${item}</li>`).join('');
 }
@@ -56,3 +49,16 @@ function mostrarInfo(dino) {
 function cerrarPanel() {
   document.getElementById('info-panel').classList.remove('open');
 }
+
+function ajustarTituloSegunAncho() {
+  const h1 = document.querySelector('header h1');
+  if (window.innerWidth <= 800) {
+    h1.textContent = 'PaleoChile';
+  } else {
+    h1.textContent = 'PaleoChile – Visualizador de Hallazgos Fósiles';
+  }
+}
+
+// Ejecutar al cargar y al redimensionar
+window.addEventListener('load', ajustarTituloSegunAncho);
+window.addEventListener('resize', ajustarTituloSegunAncho);
