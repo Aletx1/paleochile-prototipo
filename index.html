@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PaleoChile – Visualizador de Hallazgos Fósiles</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- Mapbox CSS -->
+  <link href="https://api.mapbox.com/mapbox-gl-js/v3.12.0/mapbox-gl.css" rel="stylesheet">
+
+  <!-- Estilos -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <h1>PaleoChile – Visualizador de Hallazgos Fósiles</h1>
+  </header>
+
+  <div class="map-container">
+    <div id="map"></div>
+
+    <aside id="info-panel" class="info-panel">
+      <button class="close-btn" onclick="cerrarPanel()">✖</button>
+      <img src="" alt="Fósil de ejemplo">
+
+      <section>
+        <h2></h2>
+        <p></p>
+
+        <h3>📊 Datos paleontológicos</h3>
+        <ul id="datos-paleo">
+          <!-- JS rellenará esta lista -->
+        </ul>
+
+        <h3>🌟 Datos curiosos</h3>
+        <ul id="datos-curiosos">
+          <!-- JS rellenará esta lista -->
+        </ul>
+      </section>
+    </aside>
+  </div>
+
+  <!-- Mapbox JS -->
+  <script src="https://api.mapbox.com/mapbox-gl-js/v3.12.0/mapbox-gl.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

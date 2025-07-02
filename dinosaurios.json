@@ -1,0 +1,65 @@
+[
+  {
+    "nombre": "Arackar licanantay",
+    "coordenadas": [-70.33, -27.36],
+    "ubicacion": "Región de Atacama, cerca de Copiapó",
+    "epoca": "Cretácico Superior (~70 millones de años)",
+    "dieta": "Herbívoro",
+    "tamano": "Entre 6,3 y 8 metros de largo",
+    "nombre_cientifico": "Arackar licanantay",
+    "clasificacion": [
+      "Orden: Saurischia",
+      "Suborden: Sauropodomorpha",
+      "Familia: Titanosauria"
+    ],
+    "descripcion": "Arackar licanantay es un dinosaurio titanosaurio herbívoro descubierto cerca de Copiapó en los años 90 y descrito oficialmente en 2021. Su nombre significa 'osamenta atacameña' en lengua kunza.",
+    "curiosidades": [
+      "El dinosaurio más completo hallado en Chile hasta la fecha.",
+      "Su descubrimiento amplió el conocimiento de los titanosaurios sudamericanos.",
+      "Fue estudiado en el Museo Nacional de Historia Natural de Chile."
+    ],
+    "imagen": "imagenes/arackar.jpg"
+  },
+  {
+    "nombre": "Atacamatitan chilensis",
+    "coordenadas": [-70.25, -27.47],
+    "ubicacion": "Quebrada La Higuera, cerca de Copiapó, Región de Atacama",
+    "epoca": "Cretácico Superior (~80 millones de años)",
+    "dieta": "Herbívoro",
+    "tamano": "Alrededor de 10 metros de largo",
+    "nombre_cientifico": "Atacamatitan chilensis",
+    "clasificacion": [
+      "Orden: Saurischia",
+      "Suborden: Sauropodomorpha",
+      "Familia: Titanosauria"
+    ],
+    "descripcion": "Atacamatitan chilensis fue el primer dinosaurio titanosaurio descrito en Chile, en 2011. Sus restos se encontraron en la Formación Hornitos cerca de Copiapó.",
+    "curiosidades": [
+      "Primera evidencia confirmada de dinosaurios titanosaurios en Chile.",
+      "El hallazgo incluye vértebras cervicales y dorsales.",
+      "Su descubrimiento aportó importante información sobre la fauna del Cretácico chileno."
+    ],
+    "imagen": "imagenes/atacamatitan.jpg"
+  },
+  {
+    "nombre": "Indeterminado Titanosaurio de Cerrillos Bayos",
+    "coordenadas": [-70.40, -27.55],
+    "ubicacion": "Cerrillos Bayos, cerca de Copiapó, Región de Atacama",
+    "epoca": "Cretácico Superior (~70-80 millones de años)",
+    "dieta": "Herbívoro",
+    "tamano": "Dimensiones desconocidas (restos fragmentarios)",
+    "nombre_cientifico": "Titanosauria indet.",
+    "clasificacion": [
+      "Orden: Saurischia",
+      "Suborden: Sauropodomorpha",
+      "Familia: Titanosauria"
+    ],
+    "descripcion": "Restos fragmentarios de un titanosaurio no identificado hallados en Cerrillos Bayos, al oeste de Copiapó. Incluyen vértebras y fragmentos óseos.",
+    "curiosidades": [
+      "Aún en estudio para posible clasificación específica.",
+      "Corresponde a uno de los registros más al norte de Chile de dinosaurios del Cretácico.",
+      "Es parte de la creciente evidencia de fauna de vertebrados terrestres en el norte chileno."
+    ],
+    "imagen": "imagenes/titanosaurio_indet.jpg"
+  }
+]
